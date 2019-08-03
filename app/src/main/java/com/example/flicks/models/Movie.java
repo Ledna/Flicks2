@@ -11,9 +11,7 @@ public class Movie {
     private String posterPath;//only the path
     private String backdropPath;
 
-    public String getBackdropPath() {
-        return backdropPath;
-    }
+
 
 
     //initialize from JSON data
@@ -24,7 +22,6 @@ public class Movie {
         backdropPath = object.getString("backdrop_path");
 
     }
-
     public String getPosterPath() {
         return posterPath;
 
@@ -38,4 +35,7 @@ public class Movie {
         return overview;
     }
 
+    public String getBackdropPath() {
+        return backdropPath;
+    }
 }

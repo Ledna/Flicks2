@@ -52,24 +52,24 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         Movie movie=movies.get(position);
         //populate the view with the movie data
         holder.tvTitle.setText(movie.getTitle());
-        holder.tvOverView.setText(movie.getOverview());
+     //   holder.tvOverView.setText(movie.getOverview());
 
         //determine the current orientation
 
         boolean isPortrait = context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT;
 
         //build url for poster image
-//        String imageUrl = null;
-        String imageUrl = config.getImageUrl(config.getPosterSize(), movie.getPosterPath());
+        String imageUrl = null;
+//        String imageUrl = config.getImageUrl(config.getPosterSize(), movie.getPosterPath());
 
         //if in portrait mode, load the poster image
         if (isPortrait){
-            System.out.println("portrait");
+//            System.out.println("portrait");
         //    if (imageUrl != null) {
-                imageUrl = config.getImageUrl(config.getPosterSize(), movie.getPosterPath());
+            imageUrl = config.getImageUrl(config.getPosterSize(), movie.getPosterPath());
       //      }else{System.out.println("image null");}
         }else {
-            System.out.println("back");
+//            System.out.println("back");
             //load the backdrop Image
             imageUrl = config.getImageUrl(config.getBackdropSize(), movie.getBackdropPath());
         }
