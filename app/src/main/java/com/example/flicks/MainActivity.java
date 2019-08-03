@@ -11,6 +11,7 @@ import android.util.Log;
 import android.widget.Adapter;
 import android.widget.Toast;
 
+import com.example.flicks.models.Config;
 import com.example.flicks.models.Movie;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -32,29 +33,28 @@ public class MainActivity extends AppCompatActivity {
     //the parameter for the API key
     public final static String API_KEY_PARAM = "api_key";
     //tag for logging from this activity
-    public final static String TAG = "MovieListActivity";
+    public final static String TAG = "MainActivity";
 
+//    String posterSize;
+//    String imageBaseUrl;
     //instance field
     AsyncHttpClient Client;
-    //the base url for loading images
-    String imageBaseUrl;
-    //the poster size to use when fetching images, part of the url
-    String posterSize;
     //the list of currently movie
     ArrayList<Movie> movies;
     //the recycler View
-    RecyclerView rvMovies;
+    RecyclerView rvMovie;
     //the adapter wired to the recycler View
     MovieAdapter adapter;
+    //image config
+    Config config;
 
 
-
-
-    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         //initialize the client
         Client = new AsyncHttpClient();
         //initialize the list of movie
@@ -63,9 +63,9 @@ public class MainActivity extends AppCompatActivity {
         adapter = new MovieAdapter(movies);
 
         //resolve the recycler view and connect a layout manager and the adapter
-        rvMovies = (RecyclerView) findViewById(R.id.rvMovies);
-        rvMovies.setLayoutManager(new LinearLayoutManager(this));
-        rvMovies.setAdapter(adapter);
+        rvMovie = (RecyclerView) findViewById(R.id.rvMovies);
+        rvMovie.setLayoutManager(new LinearLayoutManager(this));
+        rvMovie.setAdapter(adapter);
 
         //get the configuration on app creation
         getConfiguration();
@@ -83,23 +83,26 @@ public class MainActivity extends AppCompatActivity {
         Client.get(url, params, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                super.onSuccess(statusCode, headers, response);
+//                super.onSuccess(statusCode, headers, response);
                 //load the results into movies list
                 try {
+//                    System.out.println("totest");
                     JSONArray results = response.getJSONArray("results");
                     //iterate through result set and create Movies object
-                    for(int i = 0; i<results.length();i++){
+                    for(int i = 0; i < results.length(); i++){
                         Movie movie = new Movie(results.getJSONObject(i));
                         movies.add(movie);
                         //notify adapter that a row was added
                         adapter.notifyItemInserted(movies.size() -1);
                     }
-                    Log.i(TAG,String.format("loaded %s movies",results.length()));
+                    Log.i(TAG, String.format("Loaded %s movies", results.length()));
                     //get the now playing movie list
-                    getNowPlaying();
+//                    getNowPlaying();
                 } catch (JSONException e) {
-                    logError("Failed to parse now playing movies",e, true);
+                    logError("Failed to parse now playing movies", e, true);
                 }
+
+
             }
 
             @Override
@@ -107,15 +110,15 @@ public class MainActivity extends AppCompatActivity {
                logError("Failed to get data from now playing endpoint",throwable, true);
             }
 
-            @Override
-            public void onSuccess(int statusCode, Header[] headers, String responseString) {
-
-            }
-
-            @Override
-            public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-
-            }
+//            @Override
+//            public void onSuccess(int statusCode, Header[] headers, String responseString) {
+//
+//            }
+//
+//            @Override
+//             public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
+//
+//            }
         });
     }
         //get the configuration from the API
@@ -131,15 +134,17 @@ public class MainActivity extends AppCompatActivity {
                 public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
 
                     try {
-                        JSONObject images = response.getJSONObject("images");
-                        //get the image base url
-                        imageBaseUrl = images.getString("secure base url");
-                        //get the poster size
-                        JSONArray posterSizeOptions = images.getJSONArray("poster_size");
-                        //user the option at index 3 or w342 as fallback
-                        posterSize = posterSizeOptions.optString(3, "w342");
-                        Log.i(TAG,String.format("Loaded configuration with imageBaseUrl %s posterSize %s",imageBaseUrl,posterSize));
+//                        JSONObject images = response.getJSONObject("images");
+//                        imageBaseUrl = images.getString("secure_base_url");
+//                        JSONArray posterSizeOptions = images.getJSONArray("poster_sizes");
+//                        posterSize = posterSizeOptions.optString(3, "w342");
+                        config  = new Config(response);
+                        Log.i(TAG, String.format("Loaded configuration with imageBaseUrl %s and posterSize %s", config.getImageBaseUrl(), config.getPosterSize()));
+                        //pass config to adapter
+                        adapter.setConfig(config);
+                        getNowPlaying();
                     } catch (JSONException e) {
+                        e.printStackTrace();
                         logError("Failed parsing Configuration", e, true);
                     }
                 }
