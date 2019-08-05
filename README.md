@@ -1,63 +1,60 @@
-# Flicks2
+﻿# Project 2 - *Flickster*
 
-Appli Flickster
-# Projet 2 - * Flickster*
+**Flicks** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-** Flicks** affiche les derniers films en cours de lecture dans les cinémas. L'application utilise l'API de base de données de films pour afficher des images et des informations de base sur ces films à l'utilisateur.
+Time spent: **72** hours spent in total
 
-Temps passé: ** 120 ** heures au total
+## User Stories
 
-## Histoires d'utilisateurs
+The following **required** functionality is completed:
 
-La fonctionnalité ** requise ** suivante est terminée:
+* [x] User can **scroll through current movies** from the Movie Database API
 
-* [xxx] L'utilisateur peut ** faire défiler les films actuels ** à partir de l'API de base de données de films.
+The following **stretch** features are implemented:
 
-Les fonctionnalités ** stretch ** suivantes sont implémentées:
+* [x] For each movie displayed, user can see the following details:
+  * [x] Title, Poster Image, Overview (Portrait mode)
+  * [x] Title, Backdrop Image, Overview (Landscape mode)
+* [x] Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
+* [x] Allow user to view details of the movie including ratings and popularity within a separate activity
+* [ ] Improved the user interface by experimenting with styling and coloring.
+* [ ] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#transformations)
+* [ ] Apply the popular [Butterknife annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-Butterknife) to reduce boilerplate code.
+* [ ] Allow video trailers to be played in full-screen using the YouTubePlayerView from the details screen.
 
-* [] Pour chaque film affiché, l'utilisateur peut voir les détails suivants:
-  * [] Titre, image du poster, vue d'ensemble (mode portrait)
-  * [] Titre, Image de fond, Aperçu (mode Paysage)
-* [] Affiche un joli graphique [espace réservé] par défaut (https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) pour chaque image lors du chargement.
-* [] Permettre à l'utilisateur d'afficher les détails du film, y compris les cotes et la popularité, au sein d'une activité distincte.
-* [] Amélioration de l'interface utilisateur en expérimentant le style et la coloration.
-* [] Appliquez des coins arrondis pour l’affiche ou les images d’arrière-plan à l’aide de [Transformations Glide] (https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#transformations).
-* [] Appliquez la célèbre [bibliothèque d'annotations Butterknife] (http://guides.codepath.org/android/Reducing-View-Boilerplate-with-Butterknife) pour réduire le code passe-partout.
-* [] Autorisez la lecture de bandes-annonces vidéo en plein écran à l'aide de YouTubePlayerView à partir de l'écran de détails.
+The following **additional** features are implemented:
 
-Les fonctionnalités ** supplémentaires ** suivantes sont implémentées:
+* [ ] List anything else that you can get done to improve the app functionality!
 
-* [] Énumérez tout ce que vous pouvez faire pour améliorer les fonctionnalités de l'application!
+## Video Walkthrough
 
-Procédure vidéo ##
+Here's a walkthrough of implemented user stories:
 
-Voici un aperçu des histoires d'utilisateurs implémentées:
+<img src='Gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src = 'http: //i.imgur.com/link/to/your/gif/file.gif' title = 'Visite vidéo' width = '' alt = 'Visite vidéo' />
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-GIF créé avec [LiceCap] (http://www.cockos.com/licecap/).
+## Notes
 
-## Remarques
+Describe any challenges encountered while building the app.
 
-Décrivez les difficultés rencontrées lors de la création de l'application.
+## Open-source libraries used
 
-## Bibliothèques Open-Source utilisées
+- [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 
-- [Android Async HTTP] (https://github.com/loopj/android-async-http) - Requêtes HTTP asynchrones simples avec analyse JSON
-- [Glide] (https://github.com/bumptech/glide) - Bibliothèque de chargement et de mise en cache d'images pour Android
+## License
 
-## Licence
+    Copyright [2019] [Ledna ADRAS]
 
-    Copyright [yyyy] [nom du titulaire du droit d'auteur]
-
-    Sous licence Apache, version 2.0 (la "Licence");
-    vous ne pouvez utiliser ce fichier que conformément à la licence.
-    Vous pouvez obtenir une copie de la licence à l'adresse
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
         http://www.apache.org/licenses/LICENSE-2.0
 
-    Sauf si requis par la loi applicable ou convenu par écrit, les logiciels
-    distribué sous licence est distribué "TEL QUEL",
-    SANS GARANTIES OU CONDITIONS D'AUCUNE SORTE, expresse ou implicite.
-    Voir la Licence pour le langage spécifique régissant les autorisations et
-    limitations en vertu de la licence.
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
