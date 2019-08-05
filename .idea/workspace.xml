@@ -11,9 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7d8dbb1-540e-4d2b-afc5-c66285e4bd81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flicks2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Flicks2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/flicks/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/flicks/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/flicks/MovieAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/flicks/MovieAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/flicks/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/flicks/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/item_movie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/item_movie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" afterDir="false" />
     </list>
     <ignored mask="secrets.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +60,8 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
@@ -58,30 +69,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/item_movie.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/flicks/models/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="510">
               <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/flicks/MovieAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-              <folding>
-                <element signature="e#3263#3264#0" expanded="true" />
-                <element signature="e#3378#3379#0" expanded="true" />
-                <element signature="e#3440#3441#0" expanded="true" />
-                <element signature="e#3520#3521#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="86">
+              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Flicks2.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -89,22 +130,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/flicks/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
-              <folding>
-                <element signature="e#2483#2510#0" expanded="true" />
-                <element signature="e#4632#4659#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1445">
+              <caret line="108" column="62" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -112,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/flicks/models/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="476">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getPosterPath#0;class#Movie#0" />
@@ -152,12 +189,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/secrets.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/item_movie.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/flicks/models/Config.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/flicks/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/flicks/models/Movie.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/flicks/MovieAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/flicks/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/item_movie.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" />
+        <option value="$PROJECT_DIR$/Flicks2.iml" />
       </list>
     </option>
   </component>
@@ -173,10 +211,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,9 +223,9 @@
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="988837303254445937" />
+    <property name="device.picker.selection" value="Pixel_2_API_29" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Flicks2.iml" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="settings.editor.splitter.proportion" value="0.38735178" />
   </component>
@@ -296,20 +334,20 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Build Variants" order="0" sideWeight="0.5016234" side_tool="true" weight="0.3295626" />
+      <window_info id="Build Variants" order="0" sideWeight="0.5102041" side_tool="true" weight="0.022692889" />
       <window_info id="Captures" order="1" sideWeight="0.5113636" side_tool="true" weight="0.022624435" />
       <window_info id="Structure" order="2" sideWeight="0.5113636" side_tool="true" weight="0.022624435" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.48863637" weight="0.47352496" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.48979592" weight="0.022692889" />
       <window_info id="Favorites" order="4" sideWeight="0.5017065" side_tool="true" weight="0.3295626" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" sideWeight="0.49837664" weight="0.3295626" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.5085034" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.05102041" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.5697279" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32993197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30569947" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3282313" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.92346936" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Build" order="6" weight="0.7091837" />
       <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.3286385" />
@@ -323,10 +361,10 @@
       <window_info anchor="right" id="Device File Explorer" order="6" weight="0.3290469" />
     </layout>
     <layout-to-restore>
-      <window_info id="Build Variants" order="0" sideWeight="0.5016234" side_tool="true" weight="0.3295626" />
+      <window_info id="Build Variants" order="0" sideWeight="0.5102041" side_tool="true" visible="true" weight="0.022692889" />
       <window_info id="Captures" order="1" sideWeight="0.5113636" side_tool="true" weight="0.022624435" />
       <window_info id="Structure" order="2" sideWeight="0.5113636" side_tool="true" weight="0.022624435" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.48863637" weight="0.47352496" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.48979592" visible="true" weight="0.022692889" />
       <window_info id="Favorites" order="4" sideWeight="0.5017065" side_tool="true" weight="0.3295626" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
@@ -336,7 +374,7 @@
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.05102041" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32993197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30569947" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.3282313" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.92346936" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Build" order="6" weight="0.7091837" />
       <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.3286385" />
@@ -361,14 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/android.jar!/org/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-25" />
@@ -384,21 +414,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/flicks_backdrop_placeholder.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/item_movie.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/secrets.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -407,36 +422,65 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml">
-      <provider editor-type-id="android-designer2" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/item_movie.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="459">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/flicks/models/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/flicks/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
-          <folding>
-            <element signature="e#2483#2510#0" expanded="true" />
-            <element signature="e#4632#4659#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1445">
+          <caret line="108" column="62" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/flicks/models/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="476">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getPosterPath#0;class#Movie#0" />
@@ -444,28 +488,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/flicks/models/Config.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/flicks/MovieAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="86">
+          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/flicks/MovieAdapter.java">
+    <entry file="file://$PROJECT_DIR$/Flicks2.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-          <folding>
-            <element signature="e#3263#3264#0" expanded="true" />
-            <element signature="e#3378#3379#0" expanded="true" />
-            <element signature="e#3440#3441#0" expanded="true" />
-            <element signature="e#3520#3521#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
         </state>
       </provider>
     </entry>

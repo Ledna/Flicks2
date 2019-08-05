@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
-               logError("Failed to get data from now playing endpoint",throwable, true);
+               logError("Failed to get data from now_playing endpoint",throwable, true);
             }
 
 //            @Override

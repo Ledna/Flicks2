@@ -8,31 +8,34 @@
         android:id="@+id/ivBackdropImage"
         android:layout_width="480dp"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
         android:layout_marginRight="5dp"
+        android:adjustViewBounds="true"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/flicks_backdrop_placeholder" />
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="242dp"
-        android:layout_height="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_marginStart="512dp"
+        android:layout_marginLeft="512dp"
         android:layout_marginEnd="3dp"
         android:layout_marginRight="3dp"
-        android:text="Movie Title"
-       />
+        android:text="Movie Title" />
 
     <TextView
         android:id="@+id/tvOverView"
-        android:layout_width="241dp"
-        android:layout_height="50dp"
+        android:layout_width="221dp"
+        android:layout_height="96dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="79dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
         android:text="Movie Overview Backdrop" />
 </RelativeLayout>
